@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+     <Button
+             android:id="@+id/act_main_TextView_State"
+             android:layout_height="48dp"
+             android:layout_width="fill_parent"
+             android:textSize="16sp"
+             />
+    <com.geekxx.PullHorizontalRefresh.PullHorizontalView
+            android:id="@+id/act_main_PullHorizontalView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+</LinearLayout>
+
